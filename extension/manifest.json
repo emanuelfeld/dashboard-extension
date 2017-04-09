@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "dashboard",
+    "version": "0.0.2",
+    "author": "Emanuel Feld",
+    "options_ui": {
+        "page": "options.html",
+        "chrome_style": true
+    },
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "icons": {
+    },
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    },
+    "web_accessible_resources": [
+        "options.html",
+        "index.css",
+        "js/index.js",
+        "index.html",
+        "js/options.js"
+    ],
+    "content_scripts": [],
+    "permissions": [
+        "storage"
+    ],
+    "offline_enabled": true
+}

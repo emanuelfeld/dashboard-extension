@@ -1,0 +1,45 @@
+body: { 
+    padding: 10px; 
+}
+
+h2 { 
+    color: #be2026;
+    margin-bottom: 15px;
+}
+
+a { 
+    font-weight: bold; 
+}
+
+ul { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+li { 
+    padding: 2px; 
+}
+
+.bookmark-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.bookmark-name {
+    width: 45%;
+}
+
+.bookmark-url {
+    width: 45%;
+}
+
+label {
+    margin-left: 10px;
+}
+
+.remove-bookmark:hover {
+    cursor: pointer;
+}
